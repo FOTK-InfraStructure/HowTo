@@ -2,11 +2,12 @@
 
 1. 비어있는 디렉토리를 생성한 후 `TortoiseSVN → Create Repository here...` 순서로 클릭한다.
 
-   ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0b89f114-d7eb-4123-9dd8-f6ada69d5cfd/2.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0b89f114-d7eb-4123-9dd8-f6ada69d5cfd/2.png)
+   ![2](https://user-images.githubusercontent.com/63279334/126307871-0b446c6a-cc5a-4d2f-b88a-a7c2a01758c6.png)
+
 
 2. 아래와 같은 폴더 구조가 자동으로 생성된다.
 
-   ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/44538947-5b04-46fc-9c2f-6b137ffe764b/3.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/44538947-5b04-46fc-9c2f-6b137ffe764b/3.png)
+   ![3](https://user-images.githubusercontent.com/63279334/126307914-7a6ed08c-db28-40ef-970d-12f8b3ee97c4.png)
 
    create folder structure를 누르면 기본 폴더 구조가 생성된다.
 
@@ -14,7 +15,7 @@
 
 3. 하지만 아직 아무런 프로젝트가 없으므로 프로젝트를 생성해야한다.
 
-   ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f7e81d17-2885-4412-b738-9d0dbf2736f1/5.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f7e81d17-2885-4412-b738-9d0dbf2736f1/5.png)
+  ![5](https://user-images.githubusercontent.com/63279334/126307927-3fd57ba4-d0fa-4df1-b31d-037944717118.png)
 
    testRepo를 생성한 폴더에서 새롭게 userA라는 폴더를 생성한 후 `TortoiseSVN -> import ...` 순서로 클릭하면 프로젝트 등록 화면이 나온다.
 
@@ -26,33 +27,38 @@
 5. userA 와 userB는 둘 다 같은 testRepo를 공유하고 있다.
 6. 그 후 두 유저에서 모두 `SVN checkout` 을 수행한다.
 
-   ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/52ffd8b7-5498-451c-8c29-5a40fdb4831b/7.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/52ffd8b7-5498-451c-8c29-5a40fdb4831b/7.png)
+   ![7](https://user-images.githubusercontent.com/63279334/126307997-9d104707-a39e-4ec0-a45b-bbc8e3eff7ed.png)
 
 7. 그 후 checkout 된 testRepo에서 작업을 수행한다.
 
-   ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/cd7c52af-b308-490a-9f46-a73d1c48e2fc/8.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/cd7c52af-b308-490a-9f46-a73d1c48e2fc/8.png)
+   ![8](https://user-images.githubusercontent.com/63279334/126308011-a114a54e-b4c6-4e4c-8845-ab19b3583f33.png)
+
 
 8. userA가 새로운 작업을 수행하였다.
 
-   ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/bf790d67-d5b2-43db-8c44-8ad873746a20/9.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/bf790d67-d5b2-43db-8c44-8ad873746a20/9.png)
+   ![9](https://user-images.githubusercontent.com/63279334/126308018-d98ab20a-6be9-4b3d-944e-b6b7e9e14c64.png)
+
 
 9. 그리고 수행한 작업을 repository로 commit한다.
 
-   ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d2a328ae-8145-4f75-a2a3-fcf98d318a3d/10.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d2a328ae-8145-4f75-a2a3-fcf98d318a3d/10.png)
+  ![10](https://user-images.githubusercontent.com/63279334/126308134-0b81b1a5-e2a1-4559-8127-64473ab8de01.png)
 
-   ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/22deb709-ae63-4735-8fec-d917797fb538/11.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/22deb709-ae63-4735-8fec-d917797fb538/11.png)
+   ![11](https://user-images.githubusercontent.com/63279334/126308146-6918283a-75d5-4dbc-8e57-09da36fcc7f6.png)
+
 
 10. 이제 userB에서 userA가 한 작업을 새롭게 받을 수 있다.
 
     이때 주의 할 점은 반드시 새롭게 작업을 받을 때 `SVN update`를 해주어야 한다.
 
-    ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7ea5dc5f-9d27-4051-bd0d-d02edcd8d3e9/12.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7ea5dc5f-9d27-4051-bd0d-d02edcd8d3e9/12.png)
+    ![12](https://user-images.githubusercontent.com/63279334/126308174-5d0fc4ab-605d-42f1-a60c-ab3f3668ccba.png)
+
 
 ### 브랜치를 나눠서 작업하기
 
 1. SVN에서 새로운 기능 개발을 위해서 브랜치 생성을 위해선 특정한 디렉토리 구조를 따라야한다.
 
-   ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c9c5da4c-5831-40cf-98e7-a36fa7edc733/2.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c9c5da4c-5831-40cf-98e7-a36fa7edc733/2.png)
+   ![2](https://user-images.githubusercontent.com/63279334/126308385-72cd61ab-f282-4b08-aa74-516a224aba3c.png)
+
 
    userA가 새로운 기능을 위해 새로운 브랜치를 만들기 위해선 `repository 오른쪽 클릭 -> tortoiseSVN -> Branch/tag`를 클릭한다.
 
@@ -62,7 +68,8 @@
 
    그리고 branches 디렉토리 안에 새로운 branch를 생성한다.
 
-   ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a9bf7dc5-abfe-4fde-af9c-0be11c42110b/7.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a9bf7dc5-abfe-4fde-af9c-0be11c42110b/7.png)
+![7](https://user-images.githubusercontent.com/63279334/126308841-3ecdbb02-fd93-437e-89e4-b2a7c4bb50a2.png)
+
 
    이때 특정한 버전에서 브랜치를 나누고 싶다면 `specific revision in repository` 를 클릭하고,
 
@@ -70,50 +77,66 @@
 
 3. 새로운 브랜치를 생성한 후 해당 브랜치로 이동하기 위해선 `switch` 를 클릭한다.
 
-   ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/98744ea6-745e-479f-8756-baf6d7851c11/8.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/98744ea6-745e-479f-8756-baf6d7851c11/8.png)
+![8](https://user-images.githubusercontent.com/63279334/126308849-50af40c3-9ce4-461d-a381-6cd33679a25d.png)
+
 
 4. 새롭게 생성한 브랜치로 switch한다.
 
-   ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6c860e9d-a8b3-4bf5-ab4a-72c460245388/9.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6c860e9d-a8b3-4bf5-ab4a-72c460245388/9.png)
+  ![9](https://user-images.githubusercontent.com/63279334/126308871-100d0a2e-4c6e-4c54-871c-2184c7378745.png)
+
 
 5. 이후 `SVN checkout` 을 클릭하면 생성한 브랜치로 새롭게 디렉토리를 생성하게 된다.
 
-   ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f10fade8-d832-48ce-8af6-23f8ebcd0c60/10.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f10fade8-d832-48ce-8af6-23f8ebcd0c60/10.png)
 
-   ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2ff5648e-3b87-4416-ac4e-795caebd11f9/11.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2ff5648e-3b87-4416-ac4e-795caebd11f9/11.png)
+  ![10](https://user-images.githubusercontent.com/63279334/126308878-8d6fd364-115d-4c27-b831-8c14e20cef45.png)
+   ![11](https://user-images.githubusercontent.com/63279334/126308886-b7756337-4cbe-451c-8204-a1a99edce057.png)
+
 
 6. 새로운 브랜치에서 파일을 변경한다.
 
-   ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a3c84b92-f9cf-45ae-ae01-8036750a5962/12.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a3c84b92-f9cf-45ae-ae01-8036750a5962/12.png)
+
+   ![12](https://user-images.githubusercontent.com/63279334/126308897-6db26d7e-ea16-4932-9732-49cce290828d.png)
+
 
 7. `tortoiseSVN -> diff` 를 통해서 원본 파일과의 차이를 확인할 수 있다.
 
-   ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8a3b9ef5-4f51-4ac5-a9e3-4b436be59389/13.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8a3b9ef5-4f51-4ac5-a9e3-4b436be59389/13.png)
+
+   ![13](https://user-images.githubusercontent.com/63279334/126308909-4b6672c4-3137-4ce0-a54b-94276c437853.png)
+
 
 8. 새로운 작업을 커밋한다.
 
-   ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9c7c5636-19c7-4f94-9383-177f4fc454fa/14.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9c7c5636-19c7-4f94-9383-177f4fc454fa/14.png)
 
-   ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ee51c2df-6bb6-4036-9226-12d9786e44d4/15.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ee51c2df-6bb6-4036-9226-12d9786e44d4/15.png)
+![14](https://user-images.githubusercontent.com/63279334/126309186-52f6699c-b514-4eb1-9290-2291700f9c85.png)
+
+![15](https://user-images.githubusercontent.com/63279334/126309197-f68b697b-4f94-4652-835b-a7b82eb16f86.png)
+
+
+
 
 9. 이제 메인 trunk에 새로운 작업 내용을 `merge` 한다.
 
-   ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/bbc1c1a6-0ea6-42e8-969f-1c793a463101/2.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/bbc1c1a6-0ea6-42e8-969f-1c793a463101/2.png)
+![2 (1)](https://user-images.githubusercontent.com/63279334/126309390-5947f99b-c0cd-4cf0-888e-ab9e4dd7f793.png)
+
+
 
 10. `URL to merge from` 엔 새롭게 생성한 브랜치가 위치한다.
 
-    ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3c9becc1-7d7b-487b-a88e-0f3f56f812bd/3.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3c9becc1-7d7b-487b-a88e-0f3f56f812bd/3.png)
+    ![3](https://user-images.githubusercontent.com/63279334/126309266-74feb9b8-8bbd-4dcd-954e-1a787ee064c6.png)
+
 
     show log를 클릭하면 변화된 기록을 확인 할 수 있고 변화된 특정 내용만 골라서 머지 할 수 있다.
 
 11. 머지하기 이전에 `test` 를 통해 머지가 안전하게 정상적으로 이루어질 수 있는지 확인할 수 있다.
 
-    ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6955c805-5d72-436d-ad87-4089f600621b/5.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6955c805-5d72-436d-ad87-4089f600621b/5.png)
+    ![5](https://user-images.githubusercontent.com/63279334/126309285-16fb646e-c1ee-4176-a992-e9459b29a1b0.png)
+
 
 12. 머지된 내용을 repository로 commit한다.
 13. 머지된 기록들을 `tortoiseSVN -> revision graph` 에서 확인할 수 있다.
 
-    ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/09484e4e-8507-4d8f-997d-b500f412debc/2.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/09484e4e-8507-4d8f-997d-b500f412debc/2.png)
+![2 (2)](https://user-images.githubusercontent.com/63279334/126309318-47891399-22aa-47b6-abba-963e5e4df90f.png)
+
 
 ### 충돌 해결법
 
