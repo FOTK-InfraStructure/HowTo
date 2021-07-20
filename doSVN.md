@@ -144,36 +144,39 @@
 
    userA
 
-   ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/deb7a410-8e37-44f1-be4c-f91c141046b2/2.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/deb7a410-8e37-44f1-be4c-f91c141046b2/2.png)
+   ![2](https://user-images.githubusercontent.com/63279334/126309647-e602d5ee-c6e6-44cc-81db-0f400ee1a159.png)
 
    userB
 
-   ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e07522cf-1e69-4356-988d-17b1af7a994f/3.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e07522cf-1e69-4356-988d-17b1af7a994f/3.png)
+   ![3](https://user-images.githubusercontent.com/63279334/126309657-9de9e457-b4bc-4fc9-917c-f294fb1fe4e9.png)
+
 
 2. user A가 먼저 commit을 하고 user B가 이후에 commit을 한다.
 3. 이 경우 user B에게 `confit` 가 발생한다.
 
-   ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/eed09e67-25fc-4db9-9985-1ab4e72c37bb/5.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/eed09e67-25fc-4db9-9985-1ab4e72c37bb/5.png)
+   ![5](https://user-images.githubusercontent.com/63279334/126309670-49bd29a3-7bfd-4bc5-bfd2-25174fb58ba3.png)
 
    confict 부분을 더블클릭한다.
 
 4. 어떤 부분에서 충돌이 났는지를 보여주는 화면이 나온다.
 
-   ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/fdc015e5-a590-4a5b-9175-762b11449ea1/6.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/fdc015e5-a590-4a5b-9175-762b11449ea1/6.png)
+   ![6](https://user-images.githubusercontent.com/63279334/126309671-8453bfcc-99bf-48e7-b7af-e89e781ccd1e.png)
 
 5. 이 화면에서 내 파일을 사용해서 상대방의 파일을 덮을지, 상대방의 파일을 사용해서 내 파일을 덮을지 결정할 수 있다.
 
    < 상대방의 파일로 내 파일을 덮는 경우 >
 
-   ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a5674b84-8c32-4cbf-b3ce-e97753c05548/7.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a5674b84-8c32-4cbf-b3ce-e97753c05548/7.png)
+   ![7](https://user-images.githubusercontent.com/63279334/126309681-e5c31426-431e-4635-89f3-3217d40ba059.png)
+
 
    < 내 파일로 상대방의 파일을 덮는 경우 >
 
-   ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/cdb59159-7bb5-4a34-aacd-9d5dfcf50b5b/8.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/cdb59159-7bb5-4a34-aacd-9d5dfcf50b5b/8.png)
+  ![8](https://user-images.githubusercontent.com/63279334/126309857-d2647d22-14aa-4aa7-a4ac-e6722309fb88.png)
+
 
 6. 내 파일로 상대방의 파일을 덮었다.
 
-   ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/415e9c61-cdf0-4059-9132-c1e1b37a2de7/9.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/415e9c61-cdf0-4059-9132-c1e1b37a2de7/9.png)
+   ![9](https://user-images.githubusercontent.com/63279334/126309868-2fa2aaf7-6170-4b4d-9502-1df0d9f42068.png)
 
    맨 아래에 합쳐진 파일에서 내 파일의 내용으로 덮인 것을 확인 할 수 있다.
 
@@ -182,81 +185,96 @@
 7. 이제 repository에는 내가 수정한 내용으로 파일이 올라가 있는 상태이다.
 8. user A를 update하면 수정한 파일의 내용으로 변한것을 확인할 수 있다.
 
-   ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/77b20883-1a2c-4109-b77e-f2f1249ddac9/11.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/77b20883-1a2c-4109-b77e-f2f1249ddac9/11.png)
+  ![11](https://user-images.githubusercontent.com/63279334/126309876-29a37ea1-b7f4-40f0-8eb7-d70099944e42.png)
+
 
 ### 저장소 이동하기
 
 1. `testRepo`라는 저장소가 존재하다가 모종의 이유로 사라졌다고 하자.
 
-   ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b47d1f1b-bcf4-4021-85f2-72e2305d719c/2.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b47d1f1b-bcf4-4021-85f2-72e2305d719c/2.png)
+   ![2](https://user-images.githubusercontent.com/63279334/126309889-7cf707ea-3800-42cf-9f6a-0f32cba414df.png)
 
-   ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e92de171-95eb-43db-ac68-14c2d7403ef0/3.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e92de171-95eb-43db-ac68-14c2d7403ef0/3.png)
+   ![3](https://user-images.githubusercontent.com/63279334/126309895-b08ebe5c-9140-48bf-a4dc-af1bb0b97c0b.png)
 
    이런 사실을 모르고 userA가 자신의 변경 사항을 저장소에 반영하려고 하면 저장소에 연결할 수 없다는 문제가 발생한다.
 
-   ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/929318de-15c7-4e75-a67c-f78e9b7a323b/4.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/929318de-15c7-4e75-a67c-f78e9b7a323b/4.png)
+   ![4](https://user-images.githubusercontent.com/63279334/126309903-fddf51b7-bdd3-455c-82ab-99c448d696e1.png)
+
 
 2. 우선 새로운 저장소를 생성한다.
 
-   ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f708dad8-0d51-4779-a0f6-c930103b2a8e/5.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f708dad8-0d51-4779-a0f6-c930103b2a8e/5.png)
+   ![5](https://user-images.githubusercontent.com/63279334/126310195-bd2fee29-8cc4-4f98-9ff9-ebf94196b20a.png)
 
    `anotherRepo` 라는 저장소를 새롭게 만든다.
 
 3. svn엔 저장소를 이동하는 기능인 `relocate` 가 존재한다.
 
-   ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1e7259e4-a079-4ded-a0f3-a6c34b9ff412/11.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1e7259e4-a079-4ded-a0f3-a6c34b9ff412/11.png)
+  ![11](https://user-images.githubusercontent.com/63279334/126310211-fea9e602-f485-4bcf-98d7-ae3944223f2e.png)
+
 
 4. 하지만 기존의 저장소와 새로운 저장소의 uuid가 다르다는 이유로 relocate를 활용할 수가 없다.
 
-   ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f7a0a487-8fe4-4aec-ac60-0b168fc7eb29/4.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f7a0a487-8fe4-4aec-ac60-0b168fc7eb29/4.png)
+   ![4](https://user-images.githubusercontent.com/63279334/126310223-25d754fe-b21d-41a6-bb89-7486fde4a854.png)
+
 
 5. 그래서 `anotherRepo -> db -> uuid` 파일에서 기존 프로젝트의 uuid와 같도록 `anotherRepo` 의 uuid를 수정한다.
 
-   ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/754ebb35-fcd6-40ae-8471-e5937f59a911/5.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/754ebb35-fcd6-40ae-8471-e5937f59a911/5.png)
+   ![5 (1)](https://user-images.githubusercontent.com/63279334/126310228-7305aec3-3cb7-4d55-9cc0-2e80a33e4869.png)
+
 
 6. 다시 `relocate` 를 실행하면 정상적으로 저장소가 이동됐다는 메시지가 나온다.
 
-   ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6f48f82c-3420-4d6e-bf25-05774d8bbe7f/6.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6f48f82c-3420-4d6e-bf25-05774d8bbe7f/6.png)
+   ![6](https://user-images.githubusercontent.com/63279334/126310238-e4817027-130e-4726-8da3-3b621fb51edb.png)
+
 
 7. 이후 파일을 변경하고 commit을 한다.
 8. 하지만 커밋이 정상적으로 되지 않는다....
 
-   ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e70cb53a-83e8-4b36-916f-abb0da641849/8.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e70cb53a-83e8-4b36-916f-abb0da641849/8.png)
+   ![8](https://user-images.githubusercontent.com/63279334/126310250-8da0abee-b6b2-4a4b-8501-77d23cd19236.png)
+
 
 9. 따라서 수동으로 다른 방법을 사용해야한다.
 
    기존의 저장소에서 `export` 를 통해 기존의 내용들을 추출한다.
 
-   ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/214956da-4ac5-4823-b4a3-1722a79b3423/6.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/214956da-4ac5-4823-b4a3-1722a79b3423/6.png)
+  ![6 (1)](https://user-images.githubusercontent.com/63279334/126310258-6064e6a5-40d1-4e85-a478-02e2d29981c5.png)
+
 
    아래와 같은 디렉토리들이 추출된다.
 
-   ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a0047954-6d63-464c-a1ac-b4203a1546d5/7.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a0047954-6d63-464c-a1ac-b4203a1546d5/7.png)
+   ![7](https://user-images.githubusercontent.com/63279334/126310263-81be9588-fe68-4802-beed-86d256066820.png)
 
 10. 추출된 디렉토리들을 새롭게 생성한 `anotherRepo` 에 넣어주면 저장소를 이동시킬 수 있다.
 
-    ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/76c4dd9d-bcf8-4728-bc50-46832fc83ac7/8.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/76c4dd9d-bcf8-4728-bc50-46832fc83ac7/8.png)
+   ![8 (1)](https://user-images.githubusercontent.com/63279334/126310270-75b4098b-ec69-4b81-8fbb-3c80467aa5bf.png)
 
-    ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9a84368f-a35c-4262-84a0-ae6e4cb6901d/9.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9a84368f-a35c-4262-84a0-ae6e4cb6901d/9.png)
+
+    ![9](https://user-images.githubusercontent.com/63279334/126310277-ab09754a-fdb3-4bb0-8897-4fb7f50cfecf.png)
 
 11. `anotherRepo` 를 확인해보면 기존의 저장소의 내용을 모두 가져온 것을 볼 수 있다.
 
-    ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/dbbeee2c-138e-46ba-8ee2-45158de1be31/10.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/dbbeee2c-138e-46ba-8ee2-45158de1be31/10.png)
+   ![10](https://user-images.githubusercontent.com/63279334/126310286-3c63a505-c0d5-4d3d-95bf-1241abaa0bd8.png)
 
-    ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/bbc62f99-103b-40fa-acd9-c91bd51f0b89/11.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/bbc62f99-103b-40fa-acd9-c91bd51f0b89/11.png)
+
+    ![11 (1)](https://user-images.githubusercontent.com/63279334/126310292-c5dae503-9a6d-49d3-8970-763dcbced843.png)
+
 
 12. 하지만 이 경우에도 기존에 작업하던 디렉토리에서 commit은 불가능하다.
 13. 따라서 새롭게 생성한 저장소로 다시 checkout을 통해 작업 디렉토리를 생성한 후 작업을 이어나가야 한다.
 
-    ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/30b12b72-8096-41e4-b064-85a0ce7ecd80/15.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/30b12b72-8096-41e4-b064-85a0ce7ecd80/15.png)
+   ![15](https://user-images.githubusercontent.com/63279334/126310297-243f3598-87b0-41f4-869b-8b74f59e3865.png)
+
 
 ### 외부저장소에서 사용하기
 
 1. azure의 무료계정을 활용해서 remote svn 서버를 생성할 것이다.
 
-   ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0383a059-8765-4f34-9304-fe1903f798ff/3.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0383a059-8765-4f34-9304-fe1903f798ff/3.png)
+   ![3](https://user-images.githubusercontent.com/63279334/126310308-d33919c6-57a7-4c16-a450-7518d525124b.png)
+   
+   ![4 (1)](https://user-images.githubusercontent.com/63279334/126310317-1a056c62-ce69-4c16-897a-164213ec154b.png)
 
-   ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/da99a1cd-3e4b-4b13-accc-83c087746f2d/4.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/da99a1cd-3e4b-4b13-accc-83c087746f2d/4.png)
+
+  
 
    우분투 가상머신을 생성해준다.
 
@@ -266,13 +284,13 @@
 
    가상 머신의 네트워크 탭에서 인바운드 보안규칙을 추가한다.
 
-   ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1c6a4c42-95c0-426c-967a-b3034f12b868/10.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1c6a4c42-95c0-426c-967a-b3034f12b868/10.png)
+   ![10 (1)](https://user-images.githubusercontent.com/63279334/126310352-853199a2-b9d2-464b-8aeb-8464d4fc496f.png)
 
    간편하도록 모든 ip와 포트를 열어주었다.
 
 3. 생성한 가상머신의 외부 ip로 접속한 접속한다.
 
-   ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6aea6a41-6d75-49f5-8ab9-09ec448ec22d/5.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6aea6a41-6d75-49f5-8ab9-09ec448ec22d/5.png)
+   ![5 (2)](https://user-images.githubusercontent.com/63279334/126310360-4f0f0358-0f9c-4311-89df-ab0666f6970b.png)
 
 4. 이후 root계정으로 변경하고 `sudo su` 패키지를 업데이트한다. `apt-get update`
 5. 그 다음 svn을 설치한다. `apt-get install subversion`
@@ -288,7 +306,8 @@
 
    `cd /home/svn/repos/test`
 
-   ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7fc0199d-f623-4617-b617-b522321165d8/6.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7fc0199d-f623-4617-b617-b522321165d8/6.png)
+   ![6 (2)](https://user-images.githubusercontent.com/63279334/126310369-47239e94-620f-419e-a6f7-5ee774da021a.png)
+
 
 7. 이후 익명사용자가 접근할 수 있고, 파일을 작성할 수 있도록 설정을 변경한다.
 
@@ -296,7 +315,8 @@
 
    `vi svnserve.conf`
 
-   ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0d7384ff-ea86-421e-a206-29af9095f8ad/7.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0d7384ff-ea86-421e-a206-29af9095f8ad/7.png)
+   ![7 (1)](https://user-images.githubusercontent.com/63279334/126310377-45f98fb4-e9a1-4247-98ab-248e4093905d.png)
+
 
 8. 이후 svn을 사용할 수 있는 계정을 설정해준다.
 
@@ -304,25 +324,29 @@
 
    현재 repository를 사용할 수 있는 user와 passwd를 설정한다.
 
-   ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8f000dcd-43c3-4583-831b-c20786ac634c/8.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8f000dcd-43c3-4583-831b-c20786ac634c/8.png)
+  ![8 (2)](https://user-images.githubusercontent.com/63279334/126310390-b633a8a5-86fa-4163-862a-e98ed0c30048.png)
 
 9. 서버를 실행한다.
 
    `svnserve -d -r /home/svn/repos/`
 
-   ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c64d02d4-e4fe-47eb-a4f1-67d83f627c41/9.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c64d02d4-e4fe-47eb-a4f1-67d83f627c41/9.png)
+   ![9 (1)](https://user-images.githubusercontent.com/63279334/126310403-44f38cd0-e299-4390-acf7-22a5ffa3f18c.png)
+
 
 10. 서버세팅이 완성되었다.
 11. 이제 로컬 환경에서 해당 remote repository와의 연결을 수립한다.
 
     `svn://<가상머신 외부ip>/<생성한 저장소>`
 
-    ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a09463e6-b7b6-4ce3-9a0f-3fa805c6431b/11.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a09463e6-b7b6-4ce3-9a0f-3fa805c6431b/11.png)
+   ![11 (2)](https://user-images.githubusercontent.com/63279334/126310430-71907b0c-0a8a-4e02-85a4-325daa4036b5.png)
+
 
 12. 그리고 받아온 저장소 `test`에서 파일을 새롭게 `commit`한다.
 
-    ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d869d0bd-e1e6-4983-8f16-b07343e4884f/12.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d869d0bd-e1e6-4983-8f16-b07343e4884f/12.png)
+    ![12](https://user-images.githubusercontent.com/63279334/126310441-90830dd0-4787-4faa-9a3e-6e6e1338ec9c.png)
+
 
 13. 이제 새롭게 받은 저장소 `test2` 에서 remote repository에 업로드한 내용을 그대로 받아볼 수 있다.
 
-    ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ae59b2d3-706c-47c5-9e04-077de89b7074/13.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ae59b2d3-706c-47c5-9e04-077de89b7074/13.png)
+    ![13](https://user-images.githubusercontent.com/63279334/126310449-d32490d0-e465-4741-b4a7-c54698c6ee44.png)
+
